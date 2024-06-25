@@ -2,14 +2,14 @@
 let storedUserName = "Arun123";
 let storedPassword =  "Arun@23"
 
-let inputUserName = "Arun13";
-let inputPassword  = "Arun@23";
+let loginUserName = "Arun13";
+let loginPassword  = "Arun@23";
 
 
 
-if(storedUserName == inputUserName)
+if(storedUserName == loginUserName)
 {
-  if(storedPassword == inputPassword)
+  if(storedPassword == loginPassword)
   {
     console.log(" Successfully logged in");
   }
